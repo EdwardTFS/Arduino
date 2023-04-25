@@ -12,6 +12,6 @@ void loop() {
   delay(100*i);                      // wait for a second
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   Serial.println("OFF");
-  delay(100*i);                      // wait for a second
+  delay(1000-100*i);                      // wait for a second
   }
 }

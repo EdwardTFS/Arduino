@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "led_blink.ino",
+    "port": "COM3"
+}
