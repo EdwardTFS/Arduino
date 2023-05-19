@@ -22,6 +22,9 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
 
+//works with https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json  pico w
+//does not work with Arduino Mbed OS RP2040 pico
+
 // the setup function runs once when you press reset or power the board
 void setup() {
   Serial.begin(115200);
